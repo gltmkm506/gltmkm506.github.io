@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #27091a;
+		background: #060010;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,8 +98,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #d1bbbb;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #ECDFFF;
+		font-family: "IBM Plex Mono", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
