@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic"); */
 
 /*
 	Strata by HTML5 UP
@@ -99,9 +99,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ECDFFF;
-		font-family: "IBM Plex Mono", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-family: monospace, "Helvetica", serif;
+		font-size: 12pt;
+		font-weight: 200;
 		line-height: 1.75em;
 	}
 
@@ -111,18 +111,18 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #56dcd1;
+		color: #6AA6C4;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #57eded !important;
+			color: #558298 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #787878;
+		color: #ECDFFF;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #d6c3ec;
+		color: #ECDFFF;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -152,38 +152,38 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.25em;
-		line-height: 1.5em;
-	}
-
-	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
 
+	h4 {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
 	h5 {
-		font-size: 0.9em;
+		font-size: 0.8em;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.6em;
 		line-height: 1.5em;
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		position: relative;
 		top: 0.5em;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		position: relative;
 		top: -0.5em;
 	}
@@ -1761,7 +1761,7 @@ input, select, textarea {
 
 .post {
 	padding: 3em 3em 1em 3em ;
-	background: #3a0e27;
+	background:  #060010;
 	border: solid 1px rgba(119, 106, 163, 0.3);
 	margin: 0 0 3em 0;
 	position: relative;
@@ -1790,7 +1790,7 @@ input, select, textarea {
 
 			.post > header .title h2 {
 				font-weight: 900;
-				font-size: 1.5em;
+				font-size: 1.3em;
 			}
 
 			.post > header .title > :last-child {
@@ -1814,7 +1814,7 @@ input, select, textarea {
 			}
 
 			.post > header .meta .published {
-				color: #3eb090a9;
+				color: #9C9E9F;
 				display: block;
 				font-family: "Raleway", Helvetica, sans-serif;
 				font-size: 0.7em;
@@ -2056,13 +2056,13 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #c9819a;
+		color: #A2926F;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -2082,7 +2082,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.3em;
 	}
 
 /* Form */
@@ -2108,7 +2108,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background:  #060010;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -2147,7 +2147,7 @@ input, select, textarea {
 
 		select option {
 			color: #787878;
-			background: #fff;
+			background:  #060010;
 		}
 
 		select:focus::-ms-value {
@@ -2354,7 +2354,7 @@ input, select, textarea {
 
 		.image.thumb {
 			text-align: center;
-			background-color: #c7b5dc;
+			background-color: #ECDFFF;
 			
 		}
 
@@ -2675,7 +2675,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #060010;
 			}
 
 		table td {
@@ -2738,9 +2738,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #8852708b;
+		background-color: #272727;
 		border-radius: 0.35em;
-		border: solid 3px #9666a8;
+		border: solid 1px #9C9E9F;
 		color: #c7b5dc !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2759,8 +2759,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #56dcd1;
-			color: #57eded !important;
+			border-color: #A2926F;
+			color: #9C9E9F !important;
 		}
 
 		input[type="submit"]:active,
@@ -2886,12 +2886,15 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #060010;
+    border-bottom: solid 1px #558298;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
+    border-bottom: solid 1px #558298;
+    border-right: solid 1px #558298;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2919,16 +2922,16 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #ECDFFF;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ECDFFF;
 		}
 
 		#header h1 {
-			color: rgba(255, 241, 241, 0.864);
-			font-size: 1.35em;
+			color: #ECDFFF;
+			font-size: 1.5em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -3297,7 +3300,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.25em;
+					font-size: 1.5em;
 				}
 
 					#header h1 br {
@@ -3361,7 +3364,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.75em;
+					font-size: 1.5em;
 				}
 
 					#header h1 br {
@@ -3372,7 +3375,7 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
+				background-color: #060010;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
@@ -3453,10 +3456,11 @@ input, select, textarea {
 
 			#header {
 				padding: 2.25em 1.5em;
+        
 			}
 
 				#header h1 {
-					font-size: 1.35em;
+					font-size: 1.5em;
 				}
 
 		/* Footer */
@@ -3512,5 +3516,3 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
-
-	}
