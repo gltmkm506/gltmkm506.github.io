@@ -2904,7 +2904,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								cover;
+		background-size: auto,								auto 140%;
     border-bottom: solid 1px #558298;
     border-right: solid 1px #558298;
     border-left: solid 1px #558298;
