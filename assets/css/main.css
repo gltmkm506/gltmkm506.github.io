@@ -2442,6 +2442,8 @@ input, select, textarea {
 			}
 		.image.tiny{
 			border-radius: 100%;
+			display: flex;
+			justify-content: center;
 		}
 			.image.tiny:before {
 				display: none;
@@ -2901,7 +2903,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								cover;
     border-bottom: solid 1px #558298;
     border-right: solid 1px #558298;
     border-left: solid 1px #558298;
