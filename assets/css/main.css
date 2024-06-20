@@ -2440,6 +2440,10 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+			.image.tiny img{
+				max-width: 40%;
+				height:auto;}
+		
 
 /* List */
 
