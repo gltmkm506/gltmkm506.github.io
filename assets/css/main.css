@@ -2443,7 +2443,8 @@ input, select, textarea {
 		.image.tiny{
 			border-radius: 100%;
 			display: flex;
-			justify-content: center;
+			justify-content: flex-end;
+			max-width: 40%
 		}
 			.image.tiny:before {
 				display: none;
@@ -3365,6 +3366,7 @@ input, select, textarea {
 			#header {
 				background-attachment: scroll;
 				background-position: top left, center center;
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-size: auto,		cover;
 				left: auto;
 				padding: 6em 4em;
