@@ -2441,8 +2441,14 @@ input, select, textarea {
 				width: 100%;
 			}
 		.image.tiny{
-			max-width: 40%;
-			height:auto;}
+			border-radius: 100%;
+		}
+			.image.tiny:before {
+				display: none;
+				}
+			.image.tiny img{
+				max-width: 40%;
+				height:auto;}
 		
 
 /* List */
